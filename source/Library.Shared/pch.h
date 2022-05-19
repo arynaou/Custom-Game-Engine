@@ -1,0 +1,13 @@
+#pragma once
+#include <cstdint>
+#include <cstddef>
+#include <stdexcept>
+#include <initializer_list>
+#include <assert.h>
+#include <functional>
+#include <algorithm>
+#include <stdio.h>
+#include <gsl/gsl>
+#include <string>
+#include <fstream>
+#include <deque>

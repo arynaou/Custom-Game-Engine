@@ -1,0 +1,16 @@
+{
+	"Name":{
+		"type": "string",
+		"value": "Our World"
+	},
+	"Children": {
+		"type": "table",
+		"value": {
+			"class": "Avatar",
+			"Zip Code": {
+				"type": "integer",
+				"value": 12345
+			}
+		}
+	}
+}

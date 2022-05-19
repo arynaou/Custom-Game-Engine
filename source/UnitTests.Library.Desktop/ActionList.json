@@ -1,0 +1,78 @@
+{
+  "A": {
+    "type": "integer",
+    "value": 0
+  },
+  "Name": {
+    "type": "string",
+    "value": "Our World"
+  },
+  "Actions": {
+      "type": "table",
+      "value": [
+        {
+          "class": "ActionIncrement",
+          "Name": {
+            "type": "string",
+            "value": "Increment A"
+          },
+          "Target": {
+            "type": "string",
+            "value": "A"
+          },
+          "Step": {
+            "type": "float",
+            "value": 1
+          }
+        },
+        {
+          "class": "ActionListIf",
+          "Name": {
+            "type": "string",
+            "value": "ActionIf"
+          },
+          "Actions": {
+            "type": "table",
+            "value" :[
+              {
+                "class": "ActionIncrement",
+                "Name": {
+                  "type": "string",
+                  "value": "Increment A"
+                },
+                "Target": {
+                  "type": "string",
+                  "value": "A"
+                },
+                "Step": {
+                  "type": "float",
+                  "value": 1
+                }
+              },
+              {
+                "class": "ActionIncrement",
+                "Name": {
+                  "type": "string",
+                  "value": "Increment A"
+                },
+                "Target": {
+                  "type": "string",
+                  "value": "A"
+                },
+                "Step": {
+                  "type": "float",
+                  "value": 2
+                }
+              }
+
+            ]
+          }
+        }
+    ]
+  },
+  "Children": {
+    "type": "table",
+    "value": {
+    }
+  } 
+}
